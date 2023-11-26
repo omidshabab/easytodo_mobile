@@ -1,0 +1,58 @@
+name: todo_app
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  get: ^4.6.6
+  provider: ^6.1.1
+  isar: ^3.1.0+1
+  isar_flutter_libs: ^3.1.0+1
+  path_provider: ^2.1.1
+  iconly: ^1.0.1
+  ionicons: ^0.2.2
+  flutter_svg: ^2.0.9
+  smooth_widgets: ^0.0.4
+  flutter_launcher_icons: ^0.13.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  isar_generator: ^3.1.0+1
+  build_runner: ^2.4.6
+
+flutter_icons:
+  android: true
+  image_path_android: "assets/images/easytodo-icon-rounded.png"
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/images/easytodo-icon-rounded.png"
+  image_path_ios: "assets/images/easytodo-icon.png"
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Rokh
+      fonts:
+        - asset: assets/fonts/Rokh/RokhFaNum-Light.ttf
+          weight: 200
+        - asset: assets/fonts/Rokh/RokhFaNum-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Rokh/RokhFaNum-Bold.ttf
+          weight: 700
+
+  assets:
+    - assets/images/
+    - assets/svg/
