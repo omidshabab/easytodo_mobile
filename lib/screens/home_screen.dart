@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:todo_app/providers/todos_provider.dart';
-import 'package:todo_app/widgets/appbar.dart';
+import 'package:easytodo/providers/todos_provider.dart';
+import 'package:easytodo/widgets/appbar.dart';
 import 'package:iconly/iconly.dart';
 import 'package:ionicons/ionicons.dart';
 import 'package:provider/provider.dart';

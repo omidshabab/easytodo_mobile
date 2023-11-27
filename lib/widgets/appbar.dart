@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:todo_app/constants/config.dart';
-import 'package:todo_app/models/task_model.dart';
-import 'package:todo_app/providers/todos_provider.dart';
-import 'package:todo_app/utils/validate_empty.dart';
+import 'package:easytodo/constants/config.dart';
+import 'package:easytodo/models/task_model.dart';
+import 'package:easytodo/providers/todos_provider.dart';
+import 'package:easytodo/utils/validate_empty.dart';
 import 'package:get/get.dart';
 import 'package:get/route_manager.dart';
 import 'package:iconly/iconly.dart';

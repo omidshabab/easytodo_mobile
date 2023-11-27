@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:todo_app/constants/config.dart';
-import 'package:todo_app/providers/todos_provider.dart';
-import 'package:todo_app/screens/home_screen.dart';
+import 'package:easytodo/constants/config.dart';
+import 'package:easytodo/providers/todos_provider.dart';
+import 'package:easytodo/screens/home_screen.dart';
 import 'package:get/route_manager.dart';
 import 'package:provider/provider.dart';
 
